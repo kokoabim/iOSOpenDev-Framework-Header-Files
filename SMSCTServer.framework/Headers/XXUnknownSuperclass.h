@@ -6,6 +6,12 @@
 
 #import <SMSCTServer/XXUnknownSuperclass.h>
 
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __XXUnknownSuperclass__
+#define __XXUnknownSuperclass__ 1
+@interface XXUnknownSuperclass : NSObject
+@end
+#endif
 
 @interface XXUnknownSuperclass (SMILInterpretation)
 - (id)smilString;	// 0x8145

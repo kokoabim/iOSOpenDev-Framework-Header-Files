@@ -8,6 +8,13 @@
 
 @class NSData;
 
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __XXUnknownSuperclass__
+#define __XXUnknownSuperclass__ 1
+@interface XXUnknownSuperclass : NSObject
+@end
+#endif
+
 @interface XXUnknownSuperclass (_FTServerBagAdditions)
 - (id)_cacheTime;	// 0x73c5
 @end

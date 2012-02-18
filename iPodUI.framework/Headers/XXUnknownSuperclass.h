@@ -10,6 +10,13 @@
 
 @class UINavigationController, IUiPodSegmentedViewController, IUiPodTabBarController, NSString, IUiPodViewController, MPMediaItem, MPMediaPlaylist, NSURL, NSArray, UIViewController, IUWildcatVideosViewController;
 
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __XXUnknownSuperclass__
+#define __XXUnknownSuperclass__ 1
+@interface XXUnknownSuperclass : NSObject
+@end
+#endif
+
 @interface XXUnknownSuperclass (MMPAdditions)
 @property(readonly, assign, nonatomic) NSURL *libraryLinkURL;	// G=0x30e9; 
 @property(readonly, assign, nonatomic) NSURL *containerLibraryLinkURL;	// G=0x2f21; 

@@ -7,6 +7,12 @@
 #import <iLifeSlideshow/XXUnknownSuperclass.h>
 #import <iLifeSlideshow/iLifeSlideshow-Structs.h>
 
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __XXUnknownSuperclass__
+#define __XXUnknownSuperclass__ 1
+@interface XXUnknownSuperclass : NSObject
+@end
+#endif
 
 @interface XXUnknownSuperclass (MCVectorExtension)
 + (id)valueWithMCVector:(XXStruct_Te64nB)mcvector;	// 0x3951

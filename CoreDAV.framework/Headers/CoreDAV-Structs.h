@@ -7,6 +7,12 @@
 typedef struct _xmlTextWriter xmlTextWriter;
 
 // iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __CFURLStorageSessionRef__
+#define __CFURLStorageSessionRef__ 1
+typedef struct __CFURLStorageSession* CFURLStorageSessionRef;
+#endif
+
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
 #ifndef __xmlNodeDictDtdNsDoc___
 #define __xmlNodeDictDtdNsDoc___ 1
 typedef struct _xmlNode xmlNode;

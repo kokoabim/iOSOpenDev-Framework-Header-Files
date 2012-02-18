@@ -6,6 +6,12 @@
 
 #import <AVConference/XXUnknownSuperclass.h>
 
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __XXUnknownSuperclass__
+#define __XXUnknownSuperclass__ 1
+@interface XXUnknownSuperclass : NSObject
+@end
+#endif
 
 @interface XXUnknownSuperclass (AVConferenceError)
 + (id)AVConferenceServiceError:(int)error detailedCode:(int)code filePath:(id)path description:(id)description hResult:(long)result;	// 0x8f5dd

@@ -7,6 +7,12 @@
 #import <ScreenReaderOutput/ScreenReaderOutput-Structs.h>
 #import <ScreenReaderOutput/XXUnknownSuperclass.h>
 
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __XXUnknownSuperclass__
+#define __XXUnknownSuperclass__ 1
+@interface XXUnknownSuperclass : NSObject
+@end
+#endif
 
 @interface XXUnknownSuperclass (SCROAttributedStringExtras)
 - (BOOL)getRange:(NSRange *)range ofAttribute:(id)attribute;	// 0xa75d

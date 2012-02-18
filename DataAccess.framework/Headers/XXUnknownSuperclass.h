@@ -7,6 +7,12 @@
 #import <DataAccess/DataAccess-Structs.h>
 #import <DataAccess/XXUnknownSuperclass.h>
 
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __XXUnknownSuperclass__
+#define __XXUnknownSuperclass__ 1
+@interface XXUnknownSuperclass : NSObject
+@end
+#endif
 
 @interface XXUnknownSuperclass (DAKeychainAdditions)
 - (id)stringByURLQuoting;	// 0xb5d1

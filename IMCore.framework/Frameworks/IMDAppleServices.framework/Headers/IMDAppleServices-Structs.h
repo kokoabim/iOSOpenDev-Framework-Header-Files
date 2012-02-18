@@ -16,12 +16,30 @@ typedef struct NACContextOpaque_ *NACContextOpaque_Ref;
 typedef struct __CTServerConnection *CTServerConnectionRef;
 #endif
 
+// iOSOpenDev: added since struct was unknown
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __CFRuntimeBase__
+#define __CFRuntimeBase__ 1
+typedef struct __CFRuntimeBase {
+    uintptr_t _cfisa;
+    uint8_t _cfinfo[4];
+#if __LP64__
+    uint32_t _rc;
+#endif
+} CFRuntimeBase;
+#endif
+
 typedef struct __SecKeyDescriptor SecKeyDescriptor;
+
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __SecKey__
+#define __SecKey__ 1
 typedef struct __SecKey {
 	CFRuntimeBase _field1;
 	SecKeyDescriptor *_field2;
 	void *_field3;
 } SecKey;
+#endif
 
 typedef struct _SecMPFullIdentity SecMPFullIdentity;
 

@@ -6,6 +6,12 @@
 
 #import <PhotoLibrary/XXUnknownSuperclass.h>
 
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __XXUnknownSuperclass__
+#define __XXUnknownSuperclass__ 1
+@interface XXUnknownSuperclass : NSObject
+@end
+#endif
 
 @interface XXUnknownSuperclass (PLNavigationControllerInterface)
 - (void)revertStatusBarStyle:(int)style currentStatusBarStyle:(int)style2 animated:(BOOL)animated;	// 0x557e9

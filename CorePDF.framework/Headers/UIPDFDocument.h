@@ -8,6 +8,9 @@
 
 #import <CorePDF/UIPDFDocument.h>
 
+// iOSOpenDev: unknown type (may need to be addressed manually)
+@class UIPDFPage;
+
 @class UIPDFPageImageCache, NSString;
 
 @interface UIPDFDocument : NSObject {

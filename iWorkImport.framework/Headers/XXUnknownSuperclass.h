@@ -7,6 +7,12 @@
 #import <iWorkImport/XXUnknownSuperclass.h>
 #import <iWorkImport/iWorkImport-Structs.h>
 
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __XXUnknownSuperclass__
+#define __XXUnknownSuperclass__ 1
+@interface XXUnknownSuperclass : NSObject
+@end
+#endif
 
 @interface XXUnknownSuperclass (GQCustomNumberFormatAdditions)
 + (id)customNumberFormatTokenStringOfType:(int)type content:(id)content;	// 0x179d1

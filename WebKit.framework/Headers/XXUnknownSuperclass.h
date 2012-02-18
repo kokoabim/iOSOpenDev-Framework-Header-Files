@@ -7,6 +7,12 @@
 #import <WebKit/WebKit-Structs.h>
 #import <WebKit/XXUnknownSuperclass.h>
 
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __XXUnknownSuperclass__
+#define __XXUnknownSuperclass__ 1
+@interface XXUnknownSuperclass : NSObject
+@end
+#endif
 
 @interface XXUnknownSuperclass (WebPluginExtensions)
 - (id)_web_lowercaseStrings;	// 0x20609

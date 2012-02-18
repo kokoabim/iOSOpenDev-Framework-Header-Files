@@ -8,6 +8,13 @@
 
 @class CNFRegAlias, IMAccount;
 
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __XXUnknownSuperclass__
+#define __XXUnknownSuperclass__ 1
+@interface XXUnknownSuperclass : NSObject
+@end
+#endif
+
 @interface XXUnknownSuperclass (CNFAdditions)
 + (void)addSwipeGestureRecognizerToView:(id)view withTarget:(id)target action:(SEL)action;	// 0x19d5d
 + (void)addSwipeGestureRecognizerToView:(id)view withTarget:(id)target action:(SEL)action direction:(int)direction;	// 0x19dc1

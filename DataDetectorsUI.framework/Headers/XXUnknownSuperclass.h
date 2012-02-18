@@ -7,6 +7,12 @@
 #import <DataDetectorsUI/DataDetectorsUI-Structs.h>
 #import <DataDetectorsUI/XXUnknownSuperclass.h>
 
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __XXUnknownSuperclass__
+#define __XXUnknownSuperclass__ 1
+@interface XXUnknownSuperclass : NSObject
+@end
+#endif
 
 @interface XXUnknownSuperclass (DDExtension)
 - (void)dd_resetResults;	// 0x6531

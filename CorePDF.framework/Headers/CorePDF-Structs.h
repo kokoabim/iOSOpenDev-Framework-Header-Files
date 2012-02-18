@@ -4,6 +4,12 @@
  * Source: /System/Library/PrivateFrameworks/CorePDF.framework/CorePDF
  */
 
+// iOSOpenDev: unknown types (need to be addressed manually)
+@class CPGraphicObject;
+typedef struct { } CGPDFSelectionRef;
+typedef struct { } CGPDFFontRef;
+typedef struct { } CGPDFLayoutRef;
+
 typedef struct CPPDFGraphicState *CPPDFGraphicStateRef;
 
 typedef struct PrimitiveBuffer {

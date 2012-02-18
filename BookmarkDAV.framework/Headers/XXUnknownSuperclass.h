@@ -8,6 +8,13 @@
 
 @class CoreDAVItemWithNoChildren;
 
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __XXUnknownSuperclass__
+#define __XXUnknownSuperclass__ 1
+@interface XXUnknownSuperclass : NSObject
+@end
+#endif
+
 @interface XXUnknownSuperclass (BookmarkDAVExtensions)
 @property(retain) CoreDAVItemWithNoChildren *bookmarkMenuFolder;	// G=0x39d9; S=0x3a7d; 
 @property(retain) CoreDAVItemWithNoChildren *bookmarkBarFolder;	// G=0x39ad; S=0x3a41; 

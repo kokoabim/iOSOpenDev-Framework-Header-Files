@@ -7,6 +7,12 @@
 #import <CoreMediaStream/XXUnknownSuperclass.h>
 #import <CoreMediaStream/CoreMediaStream-Structs.h>
 
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __XXUnknownSuperclass__
+#define __XXUnknownSuperclass__ 1
+@interface XXUnknownSuperclass : NSObject
+@end
+#endif
 
 @interface XXUnknownSuperclass (MSErrorUtilities)
 + (id)MSErrorWithDomain:(id)domain code:(int)code description:(id)description underlyingError:(id)error;	// 0xe34d

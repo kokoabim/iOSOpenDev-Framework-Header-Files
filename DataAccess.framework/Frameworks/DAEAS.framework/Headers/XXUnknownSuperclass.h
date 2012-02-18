@@ -8,6 +8,12 @@
 #import <DAEAS/XXUnknownSuperclass.h>
 #import <DAEAS/DAEAS-Structs.h>
 
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __XXUnknownSuperclass__
+#define __XXUnknownSuperclass__ 1
+@interface XXUnknownSuperclass : NSObject
+@end
+#endif
 
 @interface XXUnknownSuperclass (WBXMLAdditions)
 + (id)dateWithActiveSyncStringFromYearMonthDay:(id)yearMonthDay;	// 0x315d

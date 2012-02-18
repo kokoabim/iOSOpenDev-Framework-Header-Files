@@ -6,6 +6,12 @@
 
 #import <iTunesStore/XXUnknownSuperclass.h>
 
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __XXUnknownSuperclass__
+#define __XXUnknownSuperclass__ 1
+@interface XXUnknownSuperclass : NSObject
+@end
+#endif
 
 @interface XXUnknownSuperclass (ISAdditions)
 + (id)unescapedStringForString:(id)string;	// 0x5181

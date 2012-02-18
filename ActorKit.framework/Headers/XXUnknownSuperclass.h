@@ -6,6 +6,12 @@
 
 #import <ActorKit/XXUnknownSuperclass.h>
 
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __XXUnknownSuperclass__
+#define __XXUnknownSuperclass__ 1
+@interface XXUnknownSuperclass : NSObject
+@end
+#endif
 
 @interface XXUnknownSuperclass (NSInvocationAdditions)
 - (void)addInvocation:(id)invocation;	// 0x13a9

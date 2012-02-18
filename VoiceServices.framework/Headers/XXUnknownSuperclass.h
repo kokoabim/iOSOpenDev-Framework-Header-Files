@@ -7,6 +7,12 @@
 #import <VoiceServices/VoiceServices-Structs.h>
 #import <VoiceServices/XXUnknownSuperclass.h>
 
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __XXUnknownSuperclass__
+#define __XXUnknownSuperclass__ 1
+@interface XXUnknownSuperclass : NSObject
+@end
+#endif
 
 @interface XXUnknownSuperclass (VSRecognitionSessionKeywords)
 - (id)_scrambledKeywordsAndAddToSet:(id)set;	// 0x7ca9

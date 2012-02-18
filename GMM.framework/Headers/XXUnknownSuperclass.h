@@ -7,6 +7,12 @@
 #import <GMM/XXUnknownSuperclass.h>
 #import <GMM/GMM-Structs.h>
 
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __XXUnknownSuperclass__
+#define __XXUnknownSuperclass__ 1
+@interface XXUnknownSuperclass : NSObject
+@end
+#endif
 
 @interface XXUnknownSuperclass (GMMAdditions)
 + (id)GMMLocaleID;	// 0xb951

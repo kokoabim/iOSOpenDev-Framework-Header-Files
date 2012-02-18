@@ -7,6 +7,12 @@
 #import <MIME/XXUnknownSuperclass.h>
 #import <MIME/MIME-Structs.h>
 
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __XXUnknownSuperclass__
+#define __XXUnknownSuperclass__ 1
+@interface XXUnknownSuperclass : NSObject
+@end
+#endif
 
 @interface XXUnknownSuperclass (NSDataExtensions)
 - (id)mf_subdataWithRange:(NSRange)range;	// 0x1a9d

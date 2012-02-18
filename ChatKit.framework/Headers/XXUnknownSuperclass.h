@@ -7,6 +7,12 @@
 #import <ChatKit/XXUnknownSuperclass.h>
 #import <ChatKit/ChatKit-Structs.h>
 
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __XXUnknownSuperclass__
+#define __XXUnknownSuperclass__ 1
+@interface XXUnknownSuperclass : NSObject
+@end
+#endif
 
 @interface XXUnknownSuperclass (CKMessageEntryViewDelegate)
 - (BOOL)messageEntryView:(id)view contentSizeChanged:(CGSize)changed animate:(BOOL)animate;	// 0x1bb5

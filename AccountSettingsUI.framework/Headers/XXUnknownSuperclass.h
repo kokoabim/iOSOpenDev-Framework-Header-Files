@@ -7,6 +7,12 @@
 #import <AccountSettingsUI/AccountSettingsUIAccount.h>
 #import <AccountSettingsUI/XXUnknownSuperclass.h>
 
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __XXUnknownSuperclass__
+#define __XXUnknownSuperclass__ 1
+@interface XXUnknownSuperclass : NSObject
+@end
+#endif
 
 @interface XXUnknownSuperclass (Internal)
 - (BOOL)_setTetheredDataSourceEnabled:(BOOL)enabled forDataclass:(id)dataclass;	// 0xff2d

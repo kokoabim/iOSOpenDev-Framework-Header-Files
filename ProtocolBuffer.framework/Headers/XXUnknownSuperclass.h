@@ -6,6 +6,12 @@
 
 #import <ProtocolBuffer/XXUnknownSuperclass.h>
 
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __XXUnknownSuperclass__
+#define __XXUnknownSuperclass__ 1
+@interface XXUnknownSuperclass : NSObject
+@end
+#endif
 
 @interface XXUnknownSuperclass (PBExtensions)
 - (void)setObject:(id)object atIndex:(int)index;	// 0x5ea5

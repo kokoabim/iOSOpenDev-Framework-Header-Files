@@ -7,6 +7,12 @@
 #import <ToneLibrary/ToneLibrary-Structs.h>
 #import <ToneLibrary/XXUnknownSuperclass.h>
 
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __XXUnknownSuperclass__
+#define __XXUnknownSuperclass__ 1
+@interface XXUnknownSuperclass : NSObject
+@end
+#endif
 
 @interface XXUnknownSuperclass (TLQueue)
 - (id)nextDequeuedObject;	// 0x1cc81

@@ -5,6 +5,12 @@
  */
 
 // iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __CFUserNotificationRef__
+#define __CFUserNotificationRef__ 1
+typedef struct CFUserNotification *CFUserNotificationRef;
+#endif
+
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
 #ifndef __XXStruct_4pnlqD__
 #define __XXStruct_4pnlqD__ 1
 typedef struct {

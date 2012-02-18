@@ -6,6 +6,12 @@
 
 #import <TelephonyUI/XXUnknownSuperclass.h>
 
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __XXUnknownSuperclass__
+#define __XXUnknownSuperclass__ 1
+@interface XXUnknownSuperclass : NSObject
+@end
+#endif
 
 @interface XXUnknownSuperclass (TelephonyUIInternal)
 + (id)tpImageNamed:(id)named inBundle:(id)bundle;	// 0x8de5

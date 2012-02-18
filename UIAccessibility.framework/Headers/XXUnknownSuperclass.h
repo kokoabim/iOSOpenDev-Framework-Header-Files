@@ -7,6 +7,12 @@
 #import <UIAccessibility/UIAccessibility-Structs.h>
 #import <UIAccessibility/XXUnknownSuperclass.h>
 
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __XXUnknownSuperclass__
+#define __XXUnknownSuperclass__ 1
+@interface XXUnknownSuperclass : NSObject
+@end
+#endif
 
 @interface XXUnknownSuperclass (AccessibilityCategory)
 + (id)accessibilityBundles;	// 0x4ad5

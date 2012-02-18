@@ -7,6 +7,12 @@
 #import <iAdCore/iAdCore-Structs.h>
 #import <iAdCore/XXUnknownSuperclass.h>
 
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __XXUnknownSuperclass__
+#define __XXUnknownSuperclass__ 1
+@interface XXUnknownSuperclass : NSObject
+@end
+#endif
 
 @interface XXUnknownSuperclass (_iAd_Extras)
 + (id)_iAd_imageNamed:(id)named;	// 0xffa1

@@ -6,6 +6,12 @@
 
 #import <AirPortAssistant/XXUnknownSuperclass.h>
 
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __XXUnknownSuperclass__
+#define __XXUnknownSuperclass__ 1
+@interface XXUnknownSuperclass : NSObject
+@end
+#endif
 
 @interface XXUnknownSuperclass (SSIDSorting)
 - (int)ssidAndBaseNameLocalizedCaseInsensitiveCompare:(id)compare;	// 0x1a13d

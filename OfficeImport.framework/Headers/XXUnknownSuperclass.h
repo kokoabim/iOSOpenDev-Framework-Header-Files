@@ -7,6 +7,12 @@
 #import <OfficeImport/OfficeImport-Structs.h>
 #import <OfficeImport/XXUnknownSuperclass.h>
 
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __XXUnknownSuperclass__
+#define __XXUnknownSuperclass__ 1
+@interface XXUnknownSuperclass : NSObject
+@end
+#endif
 
 @interface XXUnknownSuperclass (WBAdditions)
 + (id)dateWithWordDate:(const WrdDateTime *)wordDate;	// 0x1bd6a1

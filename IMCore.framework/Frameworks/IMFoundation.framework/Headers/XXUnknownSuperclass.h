@@ -9,6 +9,13 @@
 
 @class NSString, NSData;
 
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __XXUnknownSuperclass__
+#define __XXUnknownSuperclass__ 1
+@interface XXUnknownSuperclass : NSObject
+@end
+#endif
+
 @interface XXUnknownSuperclass (FezBundleHelpers)
 - (id)_cachedMainBundleResourcePath;	// 0x169d
 @end

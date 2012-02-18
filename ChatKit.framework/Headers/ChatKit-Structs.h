@@ -4,6 +4,22 @@
  * Source: /System/Library/PrivateFrameworks/ChatKit.framework/ChatKit
  */
 
+// iOSOpenDev: unknown types (need to address manually)
+typedef struct { } CFPhoneNumberRef;
+typedef struct { } CGImageSourceRef;
+
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __CFRuntimeBase__
+#define __CFRuntimeBase__ 1
+typedef struct __CFRuntimeBase {
+    uintptr_t _cfisa;
+    uint8_t _cfinfo[4];
+#if __LP64__
+    uint32_t _rc;
+#endif
+} CFRuntimeBase;
+#endif
+
 // iOSOpenDev: wrapped with define check (since occurs in other dumped files)
 #ifndef __XXStruct_kFm5bA__
 #define __XXStruct_kFm5bA__ 1
