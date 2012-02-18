@@ -22,6 +22,8 @@ typedef struct __SecIdentity SecIdentity;
 typedef struct __CTServerConnection *CTServerConnectionRef;
 #endif
 
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __CTCallRef__
+#define __CTCallRef__ 1
 typedef struct __CTCall *CTCallRef;
-
-
+#endif

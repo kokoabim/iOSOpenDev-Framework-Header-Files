@@ -54,7 +54,11 @@ typedef struct {
 } XXStruct_UNJ7RC;
 #endif
 
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __dispatch_group_s__
+#define __dispatch_group_s__ 1
 typedef struct dispatch_group_s dispatch_group_s;
+#endif
 
 @class NSMutableSet;
 typedef struct changeList_s {

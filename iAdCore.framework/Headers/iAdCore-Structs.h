@@ -61,6 +61,8 @@ typedef struct OpaqueJSClass OpaqueJSClass;
 typedef struct OpaqueJSValue OpaqueJSValue;
 #endif
 
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __GSEventRef__
+#define __GSEventRef__ 1
 typedef struct __GSEvent *GSEventRef;
-
-
+#endif

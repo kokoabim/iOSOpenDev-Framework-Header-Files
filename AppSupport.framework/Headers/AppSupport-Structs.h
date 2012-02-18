@@ -4,9 +4,13 @@
  * Source: /System/Library/PrivateFrameworks/AppSupport.framework/AppSupport
  */
 
+// iOSOpenDev: wrapped with define check (since occurs in other dumped files)
+#ifndef __XXStruct_kUSYWB__
+#define __XXStruct_kUSYWB__ 1
 typedef struct {
 	unsigned _field1[8];
 } XXStruct_kUSYWB;
+#endif
 
 // iOSOpenDev: wrapped with define check (since occurs in other dumped files)
 #ifndef __SCNetworkReachabilityRef__
