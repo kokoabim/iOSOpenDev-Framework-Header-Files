@@ -27,12 +27,12 @@
 	BOOL _isBlocked;	// 149 = 0x95
 	BOOL _simplePIN;	// 150 = 0x96
 }
-@property(assign, nonatomic) int autocapitalizationType;	// G=0x1ca91; S=0x1caa1; @synthesize=_autocapitalizationType
-@property(assign, nonatomic) int autocorrectionType;	// G=0x1ca71; S=0x1ca81; @synthesize=_autocorrectionType
-@property(assign, nonatomic) int keyboardType;	// G=0x1ca51; S=0x1ca61; @synthesize=_keyboardType
-@property(assign, nonatomic) int keyboardAppearance;	// G=0x1ca31; S=0x1ca41; @synthesize=_keyboardAppearance
-@property(assign, nonatomic) int spellCheckingType;
-@property(assign, nonatomic) int returnKeyType;
+@property(assign, nonatomic) UITextAutocapitalizationType autocapitalizationType;	// G=0x1ca91; S=0x1caa1; @synthesize=_autocapitalizationType
+@property(assign, nonatomic) UITextAutocorrectionType autocorrectionType;	// G=0x1ca71; S=0x1ca81; @synthesize=_autocorrectionType
+@property(assign, nonatomic) UIKeyboardType keyboardType;	// G=0x1ca51; S=0x1ca61; @synthesize=_keyboardType
+@property(assign, nonatomic) UIKeyboardAppearance keyboardAppearance;	// G=0x1ca31; S=0x1ca41; @synthesize=_keyboardAppearance
+@property(assign, nonatomic) UITextSpellCheckingType spellCheckingType;
+@property(assign, nonatomic) UIReturnKeyType returnKeyType;
 @property(assign, nonatomic) BOOL enablesReturnKeyAutomatically;
 @property(assign, nonatomic, getter=isSecureTextEntry) BOOL secureTextEntry;	// G=0x1ca2d; 
 @property(retain) id text;	// G=0x1d0f9; S=0x1d119; converted property
