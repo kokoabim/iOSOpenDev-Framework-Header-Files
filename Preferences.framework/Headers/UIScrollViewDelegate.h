@@ -8,7 +8,7 @@
 #import <Preferences/Preferences-Structs.h>
 
 
-@protocol UIScrollViewDelegate <NSObject>
+/*@protocol UIScrollViewDelegate <NSObject>
 @optional
 - (void)scrollViewDidScroll:(id)scrollView;
 - (void)scrollViewDidZoom:(id)scrollView;
@@ -23,4 +23,4 @@
 - (void)scrollViewDidEndZooming:(id)scrollView withView:(id)view atScale:(float)scale;
 - (BOOL)scrollViewShouldScrollToTop:(id)scrollView;
 - (void)scrollViewDidScrollToTop:(id)scrollView;
-@end
+@end*/

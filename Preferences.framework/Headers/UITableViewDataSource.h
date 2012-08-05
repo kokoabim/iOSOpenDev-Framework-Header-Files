@@ -7,7 +7,7 @@
 
 
 
-@protocol UITableViewDataSource <NSObject>
+/*@protocol UITableViewDataSource <NSObject>
 - (int)tableView:(id)view numberOfRowsInSection:(int)section;
 - (id)tableView:(id)view cellForRowAtIndexPath:(id)indexPath;
 @optional
@@ -20,5 +20,5 @@
 - (int)tableView:(id)view sectionForSectionIndexTitle:(id)sectionIndexTitle atIndex:(int)index;
 - (void)tableView:(id)view commitEditingStyle:(int)style forRowAtIndexPath:(id)indexPath;
 - (void)tableView:(id)view moveRowAtIndexPath:(id)indexPath toIndexPath:(id)indexPath3;
-@end
+@end*/
 

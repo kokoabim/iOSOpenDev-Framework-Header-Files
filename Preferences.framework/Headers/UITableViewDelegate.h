@@ -8,7 +8,7 @@
 
 
 
-@protocol UITableViewDelegate <NSObject, UIScrollViewDelegate>
+/*@protocol UITableViewDelegate <NSObject, UIScrollViewDelegate>
 @optional
 - (void)tableView:(id)view willDisplayCell:(id)cell forRowAtIndexPath:(id)indexPath;
 - (float)tableView:(id)view heightForRowAtIndexPath:(id)indexPath;
@@ -32,4 +32,4 @@
 - (BOOL)tableView:(id)view shouldShowMenuForRowAtIndexPath:(id)indexPath;
 - (BOOL)tableView:(id)view canPerformAction:(SEL)action forRowAtIndexPath:(id)indexPath withSender:(id)sender;
 - (void)tableView:(id)view performAction:(SEL)action forRowAtIndexPath:(id)indexPath withSender:(id)sender;
-@end
+@end*/

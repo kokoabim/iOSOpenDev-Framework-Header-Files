@@ -7,8 +7,8 @@
 #import <Preferences/UITextInputTraits.h>
 
 
-@protocol UIKeyInput <UITextInputTraits>
+/*@protocol UIKeyInput <UITextInputTraits>
 - (BOOL)hasText;
 - (void)insertText:(id)text;
 - (void)deleteBackward;
-@end
+@end*/
