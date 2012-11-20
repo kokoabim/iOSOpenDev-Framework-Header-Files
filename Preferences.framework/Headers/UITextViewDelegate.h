@@ -9,7 +9,7 @@
 
 
 
-@protocol UITextViewDelegate <NSObject, UIScrollViewDelegate>
+/*@protocol UITextViewDelegate <NSObject, UIScrollViewDelegate>
 @optional
 - (BOOL)textViewShouldBeginEditing:(id)textView;
 - (BOOL)textViewShouldEndEditing:(id)textView;
@@ -18,4 +18,4 @@
 - (BOOL)textView:(id)view shouldChangeTextInRange:(NSRange)range replacementText:(id)text;
 - (void)textViewDidChange:(id)textView;
 - (void)textViewDidChangeSelection:(id)textView;
-@end
+@end*/

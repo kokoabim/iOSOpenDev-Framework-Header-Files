@@ -7,7 +7,7 @@
 
 
 
-@protocol UIActionSheetDelegate <NSObject>
+/*@protocol UIActionSheetDelegate <NSObject>
 @optional
 - (void)actionSheet:(id)sheet clickedButtonAtIndex:(int)index;
 - (void)actionSheetCancel:(id)cancel;
@@ -15,5 +15,5 @@
 - (void)didPresentActionSheet:(id)sheet;
 - (void)actionSheet:(id)sheet willDismissWithButtonIndex:(int)buttonIndex;
 - (void)actionSheet:(id)sheet didDismissWithButtonIndex:(int)buttonIndex;
-@end
+@end*/
 

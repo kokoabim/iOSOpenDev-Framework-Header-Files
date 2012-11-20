@@ -7,9 +7,9 @@
 
 
 
-@protocol UIPopoverControllerDelegate <NSObject>
+/*@protocol UIPopoverControllerDelegate <NSObject>
 @optional
 - (BOOL)popoverControllerShouldDismissPopover:(id)popoverController;
 - (void)popoverControllerDidDismissPopover:(id)popoverController;
-@end
+@end*/
 

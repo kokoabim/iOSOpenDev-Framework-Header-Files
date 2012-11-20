@@ -8,7 +8,7 @@
 
 
 
-@protocol UITextFieldDelegate <NSObject>
+/*@protocol UITextFieldDelegate <NSObject>
 @optional
 - (BOOL)textFieldShouldBeginEditing:(id)textField;
 - (void)textFieldDidBeginEditing:(id)textField;
@@ -17,4 +17,4 @@
 - (BOOL)textField:(id)field shouldChangeCharactersInRange:(NSRange)range replacementString:(id)string;
 - (BOOL)textFieldShouldClear:(id)textField;
 - (BOOL)textFieldShouldReturn:(id)textField;
-@end
+@end*/

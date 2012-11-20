@@ -7,7 +7,7 @@
 
 
 
-@protocol UIAlertViewDelegate <NSObject>
+/*@protocol UIAlertViewDelegate <NSObject>
 @optional
 - (void)alertView:(id)view clickedButtonAtIndex:(int)index;
 - (void)alertViewCancel:(id)cancel;
@@ -16,5 +16,5 @@
 - (void)alertView:(id)view willDismissWithButtonIndex:(int)buttonIndex;
 - (void)alertView:(id)view didDismissWithButtonIndex:(int)buttonIndex;
 - (BOOL)alertViewShouldEnableFirstOtherButton:(id)alertView;
-@end
+@end*/
 
